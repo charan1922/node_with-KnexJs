@@ -1,0 +1,30 @@
+{
+  "name": "node_with-knexjs",
+  "version": "1.0.0",
+  "description": "NodeJs ( Server ) + Knex.Js (Sql query builder) + Postgres( Data Base) + React(front end)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charan1922/node_with-KnexJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charan1922/node_with-KnexJs/issues"
+  },
+  "homepage": "https://github.com/charan1922/node_with-KnexJs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "mysql": "^2.15.0",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
